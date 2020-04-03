@@ -12,10 +12,10 @@ def cli():
     logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 
 
-from ntee import *
-import sentence_similarity
-import train
-from model_reader import ModelReader
+#from ntee import *
+from . import sentence_similarity
+from . import train
+from .model_reader import ModelReader
 from utils.abstract_db import AbstractDB
 from utils import word2vec
 from utils.entity_db import EntityDB
