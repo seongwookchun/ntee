@@ -9,8 +9,8 @@ from keras.preprocessing.sequence import pad_sequences
 from sklearn.cross_validation import train_test_split
 
 from model import build_model
-from utils.sentence_detector import OpenNLPSentenceDetector
-from utils.tokenizer import RegexpTokenizer
+from .utils.sentence_detector import OpenNLPSentenceDetector
+from .utils.tokenizer import RegexpTokenizer
 
 
 def train(db, entity_db, vocab, word2vec, out_file, mode, text_len, dim_size,
