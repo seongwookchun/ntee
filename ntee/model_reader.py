@@ -3,7 +3,7 @@
 import joblib
 import numpy as np
 
-from utils.tokenizer import RegexpTokenizer
+from .utils.tokenizer import RegexpTokenizer
 
 
 class ModelReader(object):
