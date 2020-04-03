@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import click
-#import commands    # deprecated since python 2.6
+import subprocess #import commands    # deprecated since python 2.6
 import logging
 import multiprocessing
 
@@ -27,8 +27,8 @@ def download_dbpedia_abstract_files(out_dir):
     for n in range(114):
         url = 'https://s3-ap-northeast-1.amazonaws.com/ntee/pub/dbpedia_abstract/abstracts_en%d.ttl.gz' % (n,)
         click.echo('Getting %s' % url)
-        commands.getoutput('wget -P %s/ %s' % (out_dir, url))
-        print('wget -P %s/ %s' % (out_dir, url))
+        #commands.getoutput('wget -P %s/ %s' % (out_dir, url))
+        subprocess.getoutput('wget -P %s/ %s' % (out_dir, url))
 
 
 @cli.command()
