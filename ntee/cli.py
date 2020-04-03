@@ -12,7 +12,8 @@ def cli():
     logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 
 
-import ntee.sentence_similarity
+import ntee
+import sentence_similarity
 import train
 from model_reader import ModelReader
 from utils.abstract_db import AbstractDB
