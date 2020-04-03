@@ -12,7 +12,7 @@ def cli():
     logging.basicConfig(level=logging.INFO, format=LOG_FORMAT)
 
 
-import ntee
+from ntee import *
 import sentence_similarity
 import train
 from model_reader import ModelReader
