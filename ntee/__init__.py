@@ -1,1 +1,1 @@
-import sentence_similarity
+from . import sentence_similarity
