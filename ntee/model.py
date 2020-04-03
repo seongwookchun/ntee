@@ -4,7 +4,7 @@ from keras.layers import Input, RepeatVector
 from keras.layers.embeddings import Embedding
 from keras.models import Model
 
-from layers import TextRepresentationLayer, DotLayer, SoftmaxLayer
+from .layers import TextRepresentationLayer, DotLayer, SoftmaxLayer
 
 
 def build_model(text_len, negative_size, optimizer, word_size, entity_size,
