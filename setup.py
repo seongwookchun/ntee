@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='ntee',
-    version='0.0.1.4',
+    version='0.0.1.5',
     author='Studio Ousia',
     author_email='ikuya@ousia.jp',
     packages=find_packages(),
