@@ -6,7 +6,7 @@ import numpy as np
 from keras.backend.common import floatx
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.preprocessing.sequence import pad_sequences
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split    # for sklearn 0.22
 
 from model import build_model
 from .utils.sentence_detector import OpenNLPSentenceDetector
