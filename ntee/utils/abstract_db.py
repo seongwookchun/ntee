@@ -48,8 +48,8 @@ class AbstractDB(DbfilenameShelf):
 
 
 def _process_file(file_name, in_dir):
-    abs_matcher = re.compile(ur'^http://dbpedia\.org/resource/(.*)/abstract#offset_(\d+)_(\d+)$')
-    dbp_matcher = re.compile(ur'^http://dbpedia\.org/resource/(.*)$')
+    abs_matcher = re.compile('^http://dbpedia\.org/resource/(.*)/abstract#offset_(\d+)_(\d+)$')
+    dbp_matcher = re.compile('^http://dbpedia\.org/resource/(.*)$')
 
     click.echo('Processing %s' % file_name)
 
