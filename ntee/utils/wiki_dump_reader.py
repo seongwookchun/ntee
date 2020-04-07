@@ -13,7 +13,7 @@ DEFAULT_IGNORED_NS = (
 )
 
 REDIRECT_REGEXP = re.compile(
-    ur"(?:\#|＃)(?:REDIRECT|転送)[:\s]*(?:\[\[(.*)\]\]|(.*))", re.IGNORECASE
+    "(?:\#|＃)(?:REDIRECT|転送)[:\s]*(?:\[\[(.*)\]\]|(.*))", re.IGNORECASE
 )
 
 
