@@ -8,9 +8,9 @@ setup(
     author='Studio Ousia',
     author_email='ikuya@ousia.jp',
     packages=find_packages(),
-    #entry_points={
-    #    'console_scripts': [
-    #        'ntee=ntee.cli:cli'
-    #    ]
-    #}
+    entry_points={
+        'console_scripts': [
+            'ntee=ntee.cli:cli'
+        ]
+    }
 )
