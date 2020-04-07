@@ -4,7 +4,7 @@ import click
 from collections import Counter
 from marisa_trie import Trie
 
-from tokenizer import RegexpTokenizer
+from .tokenizer import RegexpTokenizer
 
 
 class Vocab(object):
