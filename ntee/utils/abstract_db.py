@@ -12,7 +12,7 @@ from functools import partial
 from multiprocessing.pool import Pool
 from shelve import DbfilenameShelf
 
-from tokenizer import RegexpTokenizer
+from .tokenizer import RegexpTokenizer
 
 
 class AbstractDB(DbfilenameShelf):
