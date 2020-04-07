@@ -8,11 +8,11 @@ from contextlib import closing
 from gensim.models.word2vec import Word2Vec, LineSentence
 from marisa_trie import Trie
 from multiprocessing.pool import Pool
-from wiki_extractor import WikiExtractor
-from wiki_dump_reader import WikiDumpReader
+from .wiki_extractor import WikiExtractor
+from .wiki_dump_reader import WikiDumpReader
 
-from tokenizer import RegexpTokenizer
-from vocab import Vocab
+from .tokenizer import RegexpTokenizer
+from .vocab import Vocab
 
 MARKER = u'ENTITY/'
 
