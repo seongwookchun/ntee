@@ -3,7 +3,7 @@
 import logging
 import mwparserfromhell
 
-from tokenizer import RegexpTokenizer
+from .tokenizer import RegexpTokenizer
 
 logger = logging.getLogger(__name__)
 
