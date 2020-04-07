@@ -12,5 +12,5 @@ setup(
     #    'console_scripts': [
     #        'ntee=ntee.cli:cli'
     #    ]
-    }
+    #}
 )
