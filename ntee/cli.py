@@ -16,10 +16,10 @@ def cli():
 from . import sentence_similarity
 from . import train
 from .model_reader import ModelReader
-from utils.abstract_db import AbstractDB
-from utils import word2vec
-from utils.entity_db import EntityDB
-from utils.vocab import Vocab
+from .utils.abstract_db import AbstractDB
+from .utils import word2vec
+from .utils.entity_db import EntityDB
+from .utils.vocab import Vocab
 
 
 @cli.command()
