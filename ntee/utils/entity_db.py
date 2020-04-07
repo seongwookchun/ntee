@@ -6,8 +6,8 @@ from contextlib import closing
 from marisa_trie import Trie, RecordTrie
 from multiprocessing.pool import Pool
 
-from wiki_extractor import WikiExtractor
-from wiki_dump_reader import WikiDumpReader
+from .wiki_extractor import WikiExtractor
+from .wiki_dump_reader import WikiDumpReader
 
 _extractor = None
 
